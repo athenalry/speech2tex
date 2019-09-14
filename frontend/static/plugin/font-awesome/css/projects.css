@@ -1,0 +1,44 @@
+
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    background: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 20px;
+  }
+  
+
+
+  #projects h2{
+      padding: 20px;
+      text-align: center;
+      color:black;
+  }
+
+  #projects li {
+      font-size: 12px;
+  }
+
+
+  .button {
+    background:#E565B8;
+    border: none;
+  }
+  .button:hover {
+    opacity: 0.8;
+    border: none;
+    background:#E565B8;
+  }
